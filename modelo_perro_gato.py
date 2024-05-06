@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Cargar el modelo
-model = tf.keras.models.load_model(r'\modelo.h5')
+model = tf.keras.models.load_model(r'modelo.h5')
 
 # Función para preprocesar la imagen cargada por el usuario
 def preprocess_image(image):
